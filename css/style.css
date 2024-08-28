@@ -1,0 +1,188 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(C:\xampp\htdocs\Restaurant-Reservation\img\adm.jpg); /* Background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    color: #333;
+}
+
+/* Headers */
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/b.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/b4.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom-img-size {
+    width: 300px;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+
+.navbar .navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #3A3B3B;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    background-color: #d1c8c8;
+    color: black;
+}
+
+/* Buttons and links */
+.header-button .btn {
+    margin-top: 40vh;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+/* Grid and layout */
+.row {
+    margin: 15px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.social-icon a {
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+
+.social-icon .fa {
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightgray;
+    line-height: 2;
+    transition: .3s;
+    border: 10px solid lightgray;
+}
+
+.social-icon a:hover .fa {
+    border: 10px solid black;
+}
+
+.bordernow {
+    width: 80px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Admin login form */
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #18e6f1, #ff69b4); /* Gradient background */
+    text-align: center; /* Center align the form */
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Label text color */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff69b4; /* Pink button background */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #cc1b71; /* Darker pink on hover */
+}
+
+.login-container p {
+    color: #21d5ed;
+}
+
+/* Bookings Table */
+.bookings-table {
+    width: 100%;
+    border-collapse: separate; /* Allows for spacing between cells */
+    border-spacing: 0 10px; /* Space between rows */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffdab9; /* Peach background color */
+    border: 1px solid black; /* Black border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bookings-table th, .bookings-table td {
+    padding: 12px 15px;
+    border: 1px solid black; /* Black border */
+}
+
+.bookings-table th {
+    background-color: #ffdab9; /* Peach background color */
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.bookings-table tr:nth-child(even) {
+    background-color: #ffdab9; /* Peach background color */
+}
+
+.bookings-table tr:hover {
+    background-color: #ffd1b3; /* Slightly darker peach on hover */
+}
