@@ -5,11 +5,11 @@ Welcome to the Restaurant Management System! This project is designed to manage 
 
 ## Features
 
-- **Admin Login:** Secure login for the restaurant administrator to manage reservations and view customer details.
+- **Admin Login:** login for the restaurant administrator to manage reservations and view customer details.
 - **Customer Signup/Login:** Customers can create an account, log in, and manage their reservations.
 - **Home Page:** 
   - **About Us:** Information about the Sizzles restaurant, including its history and mission.
-  - **Find Us:** The physical address and map location of the restaurant.
+  - **Find Us:** The physical address and of the restaurant.
   - **Menu:** A section displaying the restaurant's menu items.
   - **Make a Reservation:** A feature allowing customers to reserve a table by filling in their details.
 
